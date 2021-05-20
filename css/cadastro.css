@@ -1,0 +1,170 @@
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    width: 100%;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+    padding: 15px;
+    
+}
+
+nav img {
+  margin-left: 20px;
+width: 65px;
+height: 90px;
+margin-top: 10px;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #3B5594;
+  height: 80px;
+}
+
+nav ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+nav ul li {
+  text-align: center;
+  width: 100%;
+}
+
+nav ul li a{
+  display: inline-block;
+  padding: 10px 0;
+  width: 100%;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+nav ul li a:hover{
+  color: #001e64;
+}
+
+.sessao {
+    width: 960px;
+    height: 1100px;
+    background: #A7BBEB;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 177px 130px 33px 95px;
+  }
+
+  .sessao p{
+    color: white;
+    font-weight: bold;
+  }
+
+  .formulario {
+    width: 100%;
+    margin-top: -100px;
+  }
+  
+  .formulario h3 {
+    font-size: 30px;
+    color: white;
+    background: #3B5594;
+    border-radius: 10px;
+    line-height: 1.2;
+    text-align: center;
+    width: 50%;
+    display: block;
+    text-transform: uppercase;
+  }
+
+  .formulario p{
+      margin-top: 30px;
+      margin-bottom: 30px;
+  }
+
+  .controle {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    margin-bottom: 10px;
+  }
+  
+  .preencher {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #666666;
+    display: block;
+    width: 100%;
+    background: #e6e6e6;
+    height: 50px;
+    border-radius: 25px;
+    padding: 0 30px 0 68px;
+  }
+
+  .botao {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  
+  .btn {
+    font-size: 15px;
+    line-height: 1.5;
+    color: black;
+    text-transform: uppercase;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+  }
+
+  .btn1 {
+    font-size: 10px;
+    line-height: 1.5;
+    color: black;
+    text-transform: uppercase;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btn1:hover {
+    color: white;
+    background: #333333;
+  }
+  
+  .btn:hover {
+    color: white;
+    background: #333333;
+  }
+
+@media (min-width: 400px) and (max-width: 800px){
+  .sessao {width: 490px;
+  height: 1200px;}
+}

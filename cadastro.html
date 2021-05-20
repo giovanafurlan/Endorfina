@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cadastro.css">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <nav>
+        <img src="img/logo.png" id="logo">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#sobre">ANSIEDADE</a></li>
+            <li><a href="#objetivos">HOBBIES</a></li>
+            <li><a href="login.html">LOGIN</a></li>
+            <li><a href="cadastro.html">CADASTRO</a></li>
+        </ul>
+    </nav>
+    <main class="inicio">
+        <div class="sessao">
+            <form class="formulario" method="post" action="validacao_cadastro.php">
+                <h3>Cadastro</h3>
+                <br><br>
+                <div class="controle">
+                    <div class="break1">
+                        <input class="preencher" type="text" placeholder="Nome" required>
+                        <br><br>
+                        <input class="preencher" type="email" placeholder="Email" required>
+                        <br><br>
+                        <input class="preencher" type="date" placeholder="Data Nascimento" required>
+                        <br><br>
+                        <select name="" id="" class="preencher">
+                            <option value="">Escolher Hobby</option>
+                            <option value="danca">Dança</option>
+                            <option value="musica">Instrumentos Musicais</option>
+                            <option value="meditacao">Meditação</option>
+                            <option value="artesanato">Artesanato</option>
+                            <option value="esporte">Esporte</option>
+                            <option value="idiomas">Idiomas</option>
+                            <option value="culinaria">Culinária</option>
+                        </select>
+                    </div>
+                    
+                    <br><br>
+                    <input class="preencher" type="radio" id="profissional" required>
+                    <label for="profissional" class="preecher">Profissional</label>
+                    <input class="preencher" type="radio" id="usuario" required>
+                    <label for="usuario" class="preecher">Usuário</label>
+                    <br><br>
+                    <input class="preencher" type="tel" placeholder="Telefone" required>
+                    <br><br>
+                    <input class="preencher" type="text" placeholder="Cidade" required>
+                    <br><br>
+                    <input class="preencher" type="text" placeholder="Estado" required>
+                    <br><br>
+                    <input class="preencher" type="password" name="invest_senha" placeholder="Senha" required>
+                </div>
+                <div class="botao">
+                    <a href="login.html"><input type="submit" class="btn" name="btn" value="Cadastrar"></a>
+                </div>
+            </form>
+        </div>
+        </div>
+    </main>
+</body>
+
+</html>
