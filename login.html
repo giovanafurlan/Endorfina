@@ -7,15 +7,15 @@
     <title>Login Endorfina</title>
     <link rel="stylesheet" href="css/login.css">
     <link rel="stylesheet" href="js/script.js">
+    <script src="https://kit.fontawesome.com/0a6b0f1dd1.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
     <nav>
-        <img src="img/logo.png" id="logo">
+        <img src="img/logo.png" class="logo">
         <ul>
             <li><a href="index.html">HOME</a></li>
-            <li><a href="#sobre">ANSIEDADE</a></li>
-            <li><a href="#objetivos">HOBBIES</a></li>
             <li><a href="login.html">LOGIN</a></li>
             <li><a href="cadastro.html">CADASTRO</a></li>
         </ul>
@@ -29,16 +29,34 @@
                 <div class="controle">
                     <input class="preencher" type="email" id="" placeholder="Email" required>
                     <br><br>
-                    <input type="password" class="preencher" name="senha" placeholder="Senha" id="senha" required>
-                    <input type="button" id="btn2" class="btn2" value="Mostra senha">
-                </div>
-                    <button class="btn" id="btn">Logar</button>
-                </div>
+                    <div style="display: flex; flex-direction: row;">
+                        <input type="password" class="preencher" name="senha" placeholder="Senha" id="senha" required>
+                        <button class="botao-eye" type="button" onclick="mostrarSenha()">
+                            <i class="fas fa-eye"></i>
+                        </button>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="botao">
+                        <a href="perfil-tela-principal.html"><input type="submit" class="btn" name="btn"
+                                value="LOGIN"></a>
+                    </div>
             </form>
-            <!-- <a href="cadastro.html"><input type="submit" class="btn1" name="btn1" value="Cadastro"></a> -->
         </div>
         </div>
     </main>
+    <script>
+        function mostrarSenha() {
+            console.log("clique")
+            var tipo = document.getElementById("senha");
+
+            if (tipo.type == "password") {
+                tipo.type = "text";
+            } else {
+                tipo.type = "password"
+            }
+        }
+    </script>
 </body>
 
 </html>

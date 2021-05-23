@@ -1,0 +1,16 @@
+.hobby{
+    display: flex;
+    width: 95vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.live{
+    color: #ff0000;
+}
+
+.yoga{
+    width: 33vw;
+    height: 44vh;
+}

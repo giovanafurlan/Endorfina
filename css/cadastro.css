@@ -141,6 +141,11 @@ nav ul li a:hover{
     background: #333333;
   }
 
+  .logo{
+    width: 4.6vw;
+    height: 100%;
+}
+
 @media (min-width: 400px) and (max-width: 800px){
   .sessao {width: 490px;
   height: 1200px;}

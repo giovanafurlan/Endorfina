@@ -1,0 +1,249 @@
+/* ////////////////////////////////// CSS PRINCIPAL /////////////////////////////////// */
+
+body {
+    margin: 0px 0px 10px 0px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+#container {
+    margin: 0%;
+}
+
+header {
+    display: flex;
+    width: 100vw;
+    font-size: 0.8em;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 7vh;
+    background-color: #3B5594;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+  }
+  
+  a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 5px;
+  }
+  
+  
+  .input-pesquisar{
+    width: 100%;
+    height: 6vh;
+  }
+  
+  .input-div{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    height: 99%;
+  }
+  
+  .icone-search{
+    background-color: #3B5594;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 3vw;
+    height: 100%;
+    font-size: 20px;
+    color: #fff;
+  }
+  
+  
+  .fas.fa-bell{
+      font-size: 24px;
+    color: #fff;
+  }
+  
+  .fas.fa-comments{
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  .fas.fa-cog{
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  .icons{
+    display: flex;
+    flex-direction: row;
+    float: right;
+  }
+  
+  i{
+    margin-left: 10px;
+    margin-right: 10px;
+  } 
+  
+
+
+  .form-content{
+      display: flex;
+      flex-direction: row;
+      height: 50vh;
+      margin: 30px;
+      border: 2px solid #3B5594;
+  }
+
+  .form-content-perfil{
+      display: flex;
+      flex-direction: row;
+      height: 120vh;
+      margin: 30px;
+      border: 2px solid #3B5594;
+  }
+
+  .content-perfil{
+    width: 100%;
+    height: 100%;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.alterar-informacoes{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.conteudo-simples{
+    float: left;
+    display: flex;
+    flex-direction: row;
+}
+
+  .content-1{
+    width: 50%;
+    margin: 25px;
+    display: flex;
+  }
+  .content-2{
+    width: 50%;
+    justify-content: center;
+    margin: 25px;
+    display: flex;
+}
+
+.perfil{
+    display: flex;
+    flex-direction: row;
+}
+.conexoes{
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+}
+
+h3{
+    text-align: center;
+}
+.img-avatar{
+    width: 100px;
+    height: 100px;
+}
+
+.detalhe-perfil{
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.em-linha{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.img-avatar-pequeno{
+    width: 35px;
+    height: 35px;
+    margin-right:5px;
+}
+
+.utilizadores{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h4{
+    text-align: center;
+}
+
+
+.content-3{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    width: 100vw;
+    justify-content: center;
+}
+
+.hobbies{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    width: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+    border: 1px solid #000000;
+    height: 25vh;
+}
+/* ///////////////////////////////////////////////////////////////////// */
+
+.rotas{
+
+  flex-direction: row;
+
+}
+label{
+  margin-right: 5px;
+}
+
+.inputs-perfil{
+  width: 100%;
+  margin-bottom: 10px;
+  height: 5vh;
+  border: 2px solid #3B5594;
+  border-radius: 10px;
+}
+.inputs-perfil-date{
+  width: 20%;
+  margin-bottom: 10px;
+  height: 5vh;
+  border: 2px solid #3B5594;
+  border-radius: 10px;
+}
+
+.inputs-type{
+  flex-direction: column;
+  width: 50%;
+  display: flex;
+}
